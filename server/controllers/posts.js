@@ -22,4 +22,4 @@ export const CreatePost = async (req, res) => {
     catch (error) {
         res.send(409).json({ message: error.message })
     }
-
+}
